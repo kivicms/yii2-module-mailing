@@ -1,10 +1,10 @@
 {
-  "name": "floor12/yii2-module-mailing",
+  "name": "kivicms/yii2-module-mailing",
   "description": "Mailing module for yii2 projects.",
   "type": "yii2-module",
   "minimum-stability": "dev",
   "keywords": [
-    "floor12",
+    "kivicms",
     "yii2 module",
     "mailing",
     "email",
@@ -17,6 +17,11 @@
     {
       "name": "floor12",
       "email": "floor12@protonmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "kivicms",
+      "email": "ivanovv1972@gmail.com",
       "role": "Developer"
     }
   ],
@@ -36,14 +41,14 @@
   },
   "autoload": {
     "psr-4": {
-      "floor12\\mailing\\": [
+      "kivicms\\mailing\\": [
         "src/"
       ]
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "floor12\\mailing\\tests\\": "tests/"
+      "kivicms\\mailing\\tests\\": "tests/"
     }
   },
   "repositories": [
